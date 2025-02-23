@@ -15,7 +15,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-7">
           <a href="#home" className="cursor-pointer hover:text-blue-800">Home</a>
           <a href="#services" className="cursor-pointer hover:text-blue-800">Services</a>
-          <a href="#feature" className="cursor-pointer hover:text-blue-800">Feature</a>
+          <a href="#features" className="cursor-pointer hover:text-blue-800">Feature</a>
           <a href="#product" className="cursor-pointer hover:text-blue-800">Product</a>
           <a href="#team" className="cursor-pointer hover:text-blue-800">Team</a>
           <a href="#faq" className="cursor-pointer hover:text-blue-800">FAQ</a>
