@@ -34,7 +34,7 @@ const SignupSection = () => {
   };
 
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white lg:px-20 md:px-10">
         <div className='mb-5'>
             <h1 className='text-2xl font-bold text-center text-[#0000BF] sm:text-3xl md:text-4xl mb-5'>
               Get in touch with us !

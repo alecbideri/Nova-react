@@ -5,7 +5,7 @@ import payment from '../assets/payment.png'
 
 const Features = () => {
   return (
-    <section className='w-full py-20 bg-white px-4' id='features'>
+    <section className='w-full py-20 bg-white px-4 lg:px-32' id='features'>
       <div className='flex flex-col items-center mb-15'>
         <h1 className='text-2xl text-center font-bold text-[#0000BF] sm:text-4xl mb-6'>Features</h1>
         <p className='max-w-100 text-center mx-auto text-gray-500 font-light'>
@@ -78,7 +78,7 @@ const Features = () => {
       {/* Image section */}
 
         <div className='order-first md:order-last'>
-          <img src={payment} className='max-w-md h-auto px-4 sm:px-6' alt="Dashboard Illustration" />
+          <img src={payment} className='max-w-md h-auto ' alt="Dashboard Illustration" />
         </div>
       </div>
     </section>
