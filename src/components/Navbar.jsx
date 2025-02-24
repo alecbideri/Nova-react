@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import Logo from '../assets/Logo.png'; 
+import React from 'react';
 import menu from '../assets/menu.svg';
 import cross from '../assets/cross_icon.svg';
+import NovaIcon from '../assets/nova-x-high-blue.svg';
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = React.useState(false);
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-[1200px] mx-auto flex items-center justify-between py-4 px-6 md:px-10 lg:px-16">
-        <img src={Logo} alt="Logo" className="h-10 w-auto" />
+        <a href="#home"><img src={NovaIcon} alt="Logo" className="w-15 h-15" /></a>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex gap-7">
@@ -49,7 +49,7 @@ const Navbar = () => {
         <ul className='flex flex-col items-center gap-5 text-lg font-medium'>
           <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#services" onClick={() => setMenuOpen(false)}>Services</a>
-          <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#feature" onClick={() => setMenuOpen(false)}>Feature</a>
+          <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#features" onClick={() => setMenuOpen(false)}>Features</a>
           <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#product" onClick={() => setMenuOpen(false)}>Product</a>
           <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#team" onClick={() => setMenuOpen(false)}>Team</a>
           <a className='px-4 py-2 hover:text-[#0000BF] cursor-pointer' href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>

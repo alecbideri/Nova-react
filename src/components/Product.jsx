@@ -1,4 +1,3 @@
-import React from 'react'
 import product from '../assets/product.png'
 
 const Product = () => {
@@ -12,9 +11,9 @@ const Product = () => {
         <div className='flex flex-col items-center md:items-center mt-10'>
         <div className='grid grid-cols-1 gap-6 2xl:pr-28'>
             <h1 className='text-xl font-medium text-gray-700'>Discover how we are going to change the business</h1>
-            <p className='max-w-120 text-gray-600 font-light'>Unlock growth opportunities with NOVA X through innovative, non-collateral-based financing solutions that expand your capital and connect you with forward-thinking investors to turn your business vision into reality.</p>
+            <p className='max-w-100 text-gray-600 font-light'>Unlock growth opportunities with NOVA X through innovative, non-collateral-based financing solutions that expand your capital and connect you with forward-thinking investors to turn your business vision into reality.</p>
           <div className='my-1 max-w-lg'>
-          <button className='bg-[#0000BF] py-3 px-4 text-white rounded mt-6cursor-pointer hover:shadow-md shadow-[#0000BF]/50'>Read More</button>
+          <button className='bg-[#0000BF] py-3 px-4 text-white rounded mt-6 cursor-pointer hover:shadow-md shadow-[#0000BF]/50'>Read More</button>
           </div>
           </div>
         </div>

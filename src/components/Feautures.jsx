@@ -1,4 +1,3 @@
-import React from 'react'
 import { SquareCheck } from 'lucide-react';
 import dashboard from '../assets/dashboard.png'
 import market from '../assets/market.png'
@@ -41,14 +40,14 @@ const Features = () => {
       
        {/* Image section */}
 
-      <div className='order-last md:order-first'>
+      <div>
           <img src={market} className='max-w-md h-auto' alt="Dashboard Illustration" />
       </div>
 
       {/* Text section */}
 
-        <div className='flex flex-col items-start gap-4 sm:px-10 lg:px-0'>
-          <h3 className='text-xl text-[#0000BF] font-medium'>Clean Dashboard</h3>
+        <div className='flex flex-col items-start gap-4 sm:px-10 lg:px-0 order-last md:order-first'>
+          <h3 className='text-xl text-[#0000BF] font-medium'>Huge Market</h3>
           <p className='max-w-100 text-gray-600 font-light'>
             Unlock growth opportunities with NOVA X through innovative, non-collateral-based financing solutions that expand your capital and connect you with forward-thinking investors to turn your business vision into reality.
           </p>
@@ -65,7 +64,7 @@ const Features = () => {
       {/* Text section */}
 
         <div className='flex flex-col items-start gap-4 sm:px-10 lg:px-0'>
-          <h3 className='text-xl text-[#0000BF] font-medium'>Clean Dashboard</h3>
+          <h3 className='text-xl text-[#0000BF] font-medium'>Safe payment</h3>
           <p className='max-w-100 text-gray-600 font-light'>
             Unlock growth opportunities with NOVA X through innovative, non-collateral-based financing solutions that expand your capital and connect you with forward-thinking investors to turn your business vision into reality.
           </p>
