@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <section className='w-full py-20 bg-[#F1F1FF]'>
+    <section className='w-full py-20 bg-[#F1F1FF] px-4 sm:px-6'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-col items-center'>
           <div className='mb-10'>
@@ -12,11 +12,12 @@ const Faq = () => {
             </p>
           </div>
 
-          <div className='flex justify-center gap-4 mb-10'>
-            <button className='bg-white px-4 py-2 rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>General</button>
-            <button className='bg-white px-4 py-2 rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>Pricing</button>
-            <button className='bg-white px-4 py-2 rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>Dashboard</button>
-            <button className='bg-white px-4 py-2 rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>API</button>
+          <div className='flex flex-wrap justify-center gap-2 sm:gap-4 mb-10 px-4 sm:px-6'>
+            <button className='bg-white px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>General</button>
+            <button className='bg-white px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>Pricing</button>
+            <button className='bg-white px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>Dashboard</button>
+            <button className='bg-white px-3 py-1.5 sm:px-4 sm:py-2 text-sm sm:text-base rounded-2xl border border-[#0000BF] font-light cursor-pointer hover:bg-[#0000BF] hover:text-white'>API</button>
+
           </div>
 
           {/* The accordion structure of the  */}
